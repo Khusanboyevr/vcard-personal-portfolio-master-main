@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/photo_2025-07-15_21-43-36 (2).jpg"
+              style="border-radius: 20px"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Rahmatillo...</h1>
+
+            <p class="title">Web developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:web20100101@gmail.com" class="contact-link"
+                  >web20100101@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Telefon</p>
+
+                <a href="tel:+998(50) 100-42-81" class="contact-link"
+                  >+998(50) 100-42-81</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Tug'ilgan kun</p>
+
+                <time datetime="1982-06-23">Yanvar 01, 2010</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Farg'ona Oltiariq, UZB</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://t.me/Frontend_dev010"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="  https://t.me/khusanov_blocg"
+                target="_blank"
+                class="social-link"
+              >
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://instagram.com/elmurodovich.010"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Men Husanboyev Rahmatillo Elmurodovich hozirda Frontend dasturlash
+              yo'nalishda o'qiyman. Asosiy yo'nalishim kiberxavfsizlik...
+              hobbiyim dasturlash!
+            </p>
+
+            <p>
+              Dastlab boshqa sohalarga qiziqqan bo‘lsam-da, vaqt o‘tishi bilan
+              web dasturlash meni o‘ziga jalb qildi. Oddiygina sahifa
+              yaratishdan boshlab, bu sohaning cheksiz imkoniyatlari meni
+              qiziqtirib qo‘ydi. Birinchi loyihamni yaratganimdan so‘ng, bu
+              yo‘nalishda o‘sish istagi yanada kuchaydi. Hozirda HTML, CSS va
+              JavaScript asoslarini o‘rganib, real loyihalarda qo‘llashga
+              harakat qilyapman. Kelajakda zamonaviy va foydali web-ilovalar
+              yaratish — mening asosiy maqsadim.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">kiberxavfsizlik</h4>
+
+                  <p class="service-item-text">
+                    Men kiberxavfsizlik yo'nalishi uchun tayyorlanyapman.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">cod yozyapman</h4>
+
+                  <p class="service-item-text">
+                    O‘zim uchun kichik web loyihalar yaratib, tajriba
+                    orttiryapman.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Frontend</h4>
+
+                  <p class="service-item-text">
+                    Frontend bo'yicha junior darajasiga chiqiga tayyorlanyapman.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Dasturlash</h4>
+
+                  <p class="service-item-text">
+                    Dasturchilikdagi yo‘limni topish va rivojlantirish ustida
+                    ishlayapman.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Do'stlarim!</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      style="border-radius: 10px"
+                      src="data:image/jpeg;base64,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"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Jo'rayev Diyorbek.
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Diyorbek 2010-chi yilda tug'ilgan. U kompyuter
+                      dizaynerligi yo'nalishiga qiziqgan va hozirda shu
+                      yo'nalishda o'qiydi. u bilan ham sinfdosh ham qalin
+                      do'stmiz va juda kop qiyinchiliklardan birgalikda
+                      otganmiz. <br />
+                      tel:+998 (50) 077-42-03.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      style="border-radius: 10px"
+                      src="data:image/jpeg;base64,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"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Solijonov Jahongir
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Jahongir 2010-chi yilda tug'ilgan. U backend yo'nalishiga
+                      qiziqgan va hozirda shu yo'nalishda o'qiydi. U bilan
+                      yoshlikdan qalin do'stmiz va juda kop qiyinchiliklardan
+                      birgalikda otganmiz. <br />
+                      tel:+998 (91) 670-03-76.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      style="border-radius: 10px"
+                      src="data:image/jpeg;base64,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"
+                      alt="Daniel lewis"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Turg'unaliyev G'aybullajon.
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      G'aybullajon 2010-chi yilda tug'ilgan. U kardialogiya
+                      yo'nalishiga qiziqgan va hozirda shu yo'nalishda o'qiydi.
+                      U bilan yoshlikdan qalin do'stmiz va juda kop
+                      qiyinchiliklardan birgalikda otganmiz. <br />
+                      tel:+998 (50) 100-42-03.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="links">
+            <a href="https://t.me/Frontend_dev010" target="_blank"
+              >👤 Telegram akk</a
+            >
+            <a href="https://instagram.com/elmurodovich.010" target="_blank"
+              >📸 Instagram</a
+            >
+            <a href="https://t.me/khusanov_blocg" target="_blank"
+              >📢 Telegram Kanal</a
+            >
+          </div>
+          <!--
+          - clients
+        --></article>
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://akademnashrmy.netlify.app" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Loyixa</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://worldmapr.netlify.app" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+                  <h3 class="project-title">Orizon</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="https://ansormed-rahmatillo.netlify.app"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a
+                  href="https://rahmatillo-shortterining.netlify.app"
+                  target="_blank"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Brawlhalla</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="httpsmyworldr.netlify.app">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">DSM.</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MetaSpark</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
